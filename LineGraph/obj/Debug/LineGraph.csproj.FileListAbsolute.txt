@@ -1,1 +1,9 @@
 D:\Projects\LineGraph\LineGraph\bin\Debug\LineGraph.exe.config
+D:\Projects\LineGraph\LineGraph\bin\Debug\LineGraph.exe
+D:\Projects\LineGraph\LineGraph\bin\Debug\LineGraph.pdb
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.csprojResolveAssemblyReference.cache
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.Form1.resources
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.Properties.Resources.resources
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.csproj.GenerateResource.Cache
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.exe
+D:\Projects\LineGraph\LineGraph\obj\Debug\LineGraph.pdb
