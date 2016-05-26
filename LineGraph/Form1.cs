@@ -30,16 +30,30 @@ namespace LineGraph
             // Y축 글자열
             // (만 권)
             string KwanText = "(만 권)";
-            // 글자의 색상
+            // (만 권)의 색상
             SolidBrush TextBrush = new SolidBrush(Color.Teal);
-            // 글자의 위치
-            PointF KwanTextPoint = new PointF(panel1.Width * 0.1f, panel1.Height * 0.1f);
+            // (만 권)의 위치
+            PointF KwanTextPoint = new PointF(panel1.Width / 8.0f, panel1.Height / 11.0f);
+            // 60
+            string SixtyText = "60";
+            // 60의 위치
+            PointF SixtyTextPoint = new PointF(panel1.Width * 3 / 16.0f, panel1.Height * 2 / 11.0f);
+            // 50
+            string FiftyText = "50";
+            // 50의 위치
+            PointF FiftyTextPoint = new PointF(panel1.Width * 3 / 16.0f, panel1.Height * 3 / 11.0f);
 
             // 제목을 그린다.
             e.Graphics.DrawString(Title, TitleFont, TitleBrush, TitlePoint);
 
             // (만 권)을 그린다.
             e.Graphics.DrawString(KwanText, TitleFont, TextBrush, KwanTextPoint);
+
+            // 60을 그린다.
+            e.Graphics.DrawString(SixtyText, TitleFont, TextBrush, SixtyTextPoint);
+
+            // 50을 그린다.
+            e.Graphics.DrawString(FiftyText, TitleFont, TextBrush, FiftyTextPoint);
         }
     }
 }
